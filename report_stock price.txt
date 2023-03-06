@@ -1,0 +1,910 @@
+
+dropped multicollinearity fields: False
+best alpha coeff penalty weight, after using our test set like a cross val set: 0.001
+best overall, across all companies, hyper-parameter alpha results for the specified target:
+
+('coms', 'apple')
+('target', 'stock price')
+('y_hats', array([ 0.64958217, -1.19915537, -0.13314049, -0.55982714,  0.35212068]))
+('y_tests', array([ 0.65091009, -1.20052713, -0.13287184, -0.56030798,  0.35220555]))
+('test_pred_residuals', array([-1.32792235e-03,  1.37176068e-03, -2.68652023e-04,  4.80838755e-04,
+       -8.48751950e-05]))
+('y_hat_inverse_scales', array([[ 1.34816257],
+       [-0.24017375],
+       [ 0.67568917],
+       [ 0.30910284],
+       [ 1.09259959]]))
+('y_test_inverse_scales', array([[ 1.34930345],
+       [-0.24135229],
+       [ 0.67591998],
+       [ 0.30868973],
+       [ 1.09267251]]))
+('intercepts', 3.87705995193987e-16)
+('coefficients', array([-0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+        0.88458688, -0.60416303, -0.        ,  0.        , -0.        ,
+       -0.        , -0.        ,  0.        , -0.        , -0.        ,
+       -0.        , -0.        ,  0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9999981703291981)
+('percent_within_20_percent', 1.0)
+
+('coms', 'microsoft')
+('target', 'stock price')
+('y_hats', array([-0.62613665, -0.12742103,  1.42021789,  1.90612764, -0.19038803]))
+('y_tests', array([-0.62689638, -0.12753956,  1.42242551,  1.90898579, -0.19110624]))
+('test_pred_residuals', array([ 0.00075974,  0.00011853, -0.00220762, -0.00285815,  0.00071821]))
+('y_hat_inverse_scales', array([[0.22274781],
+       [0.65220448],
+       [1.98491564],
+       [2.40334486],
+       [0.597982  ]]))
+('y_test_inverse_scales', array([[0.22209358],
+       [0.65210242],
+       [1.98681667],
+       [2.40580609],
+       [0.59736353]]))
+('intercepts', -3.0010598955722716e-16)
+('coefficients', array([-0.        , -0.        ,  0.        ,  0.        , -0.        ,
+        0.94775186, -0.60890076,  0.        , -0.        ,  0.        ,
+       -0.        , -0.        ,  0.        ,  0.        ,  0.        ,
+       -0.        ,  0.        ,  0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9999971557475245)
+('percent_within_20_percent', 1.0)
+
+('coms', 'amazon')
+('target', 'stock price')
+('y_hats', array([-0.1981033 , -1.34307306,  0.91560363, -0.33194408,  0.40294136]))
+('y_tests', array([-0.19804066, -1.34567479,  0.91735179, -0.33276286,  0.40292104]))
+('test_pred_residuals', array([-6.26428473e-05,  2.60173134e-03, -1.74816043e-03,  8.18774851e-04,
+        2.03204165e-05]))
+('y_hat_inverse_scales', array([[ 0.26377612],
+       [-0.82746818],
+       [ 1.32522453],
+       [ 0.13621555],
+       [ 0.83661793]]))
+('y_test_inverse_scales', array([[ 0.26383582],
+       [-0.82994783],
+       [ 1.32689066],
+       [ 0.13543519],
+       [ 0.83659856]]))
+('intercepts', -1.589118988072571e-17)
+('coefficients', array([-0.        , -0.        ,  0.        ,  0.        , -0.        ,
+        0.95651809, -0.57081086, -0.        ,  0.        ,  0.        ,
+       -0.        , -0.        , -0.        , -0.        , -0.        ,
+       -0.        , -0.        ,  0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9999963828699531)
+('percent_within_20_percent', 1.0)
+
+('coms', 'twitter')
+('target', 'stock price')
+('y_hats', array([-1.98453154, -0.33064672, -2.08220056, -1.27790768,  0.65808321]))
+('y_tests', array([-1.98746767, -0.33112427, -2.08536136, -1.2793348 ,  0.65934263]))
+('test_pred_residuals', array([ 0.00293612,  0.00047754,  0.00316079,  0.00142712, -0.00125943]))
+('y_hat_inverse_scales', array([[-1.31251918],
+       [ 0.35500149],
+       [-1.41099346],
+       [-0.60006939],
+       [ 1.35188324]]))
+('y_test_inverse_scales', array([[-1.31547952],
+       [ 0.35452001],
+       [-1.41418031],
+       [-0.60150828],
+       [ 1.35315305]]))
+('intercepts', -2.6665931981999397e-16)
+('coefficients', array([-0.        , -0.        , -0.        , -0.        ,  0.        ,
+        0.83607174, -0.56475395, -0.        ,  0.        , -0.        ,
+       -0.        ,  0.        , -0.        ,  0.        ,  0.        ,
+        0.        ,  0.        ,  0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9999958646845659)
+('percent_within_20_percent', 1.0)
+
+('coms', 'openai')
+('target', 'stock price')
+('y_hats', array([ 1.25330931, -0.26883178,  1.41945115,  0.13583097, -1.06069289]))
+('y_tests', array([ 1.25462865, -0.26869664,  1.42105034,  0.13669216, -1.0615727 ]))
+('test_pred_residuals', array([-0.00131934, -0.00013515, -0.00159918, -0.0008612 ,  0.00087981]))
+('y_hat_inverse_scales', array([[ 1.96219687],
+       [ 0.30724479],
+       [ 2.14283504],
+       [ 0.74721548],
+       [-0.55370836]]))
+('y_test_inverse_scales', array([[ 1.96363132],
+       [ 0.30739173],
+       [ 2.14457376],
+       [ 0.74815182],
+       [-0.55466494]]))
+('intercepts', 1.9268826750716697e-16)
+('coefficients', array([-0.        , -0.        , -0.        , -0.        , -0.        ,
+        0.81901258, -0.42009628,  0.        ,  0.        , -0.        ,
+       -0.        , -0.        ,  0.        ,  0.        , -0.        ,
+        0.        ,  0.        ,  0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9999986660402126)
+('percent_within_20_percent', 1.0)
+
+('coms', 'facebook')
+('target', 'stock price')
+('y_hats', array([-2.12635196,  2.04575748,  0.1589383 ,  2.24681358, -0.9062648 ]))
+('y_tests', array([-2.1296323 ,  2.04926833,  0.15852412,  2.25047407, -0.90783088]))
+('test_pred_residuals', array([ 0.00328034, -0.00351086,  0.00041418, -0.0036605 ,  0.00156607]))
+('y_hat_inverse_scales', array([[-1.46768271],
+       [ 2.16506203],
+       [ 0.5221683 ],
+       [ 2.34012587],
+       [-0.40532678]]))
+('y_test_inverse_scales', array([[-1.47053897],
+       [ 2.16811901],
+       [ 0.52180766],
+       [ 2.34331314],
+       [-0.40669039]]))
+('intercepts', -5.955764526142249e-16)
+('coefficients', array([-0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+        0.88767835, -0.56467006, -0.        , -0.        , -0.        ,
+       -0.        ,  0.        ,  0.        , -0.        , -0.        ,
+       -0.        , -0.        , -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9999972544692227)
+('percent_within_20_percent', 1.0)
+
+('coms', 'alphabet')
+('target', 'stock price')
+('y_hats', array([ 0.46679804, -0.19675812, -0.81944781, -2.07068828,  0.18385253]))
+('y_tests', array([ 0.46717184, -0.1972023 , -0.82045999, -2.07338649,  0.18420488]))
+('test_pred_residuals', array([-0.0003738 ,  0.00044418,  0.00101219,  0.00269821, -0.00035234]))
+('y_hat_inverse_scales', array([[ 1.25851165],
+       [ 0.52648901],
+       [-0.1604505 ],
+       [-1.54079538],
+       [ 0.94637151]]))
+('y_test_inverse_scales', array([[ 1.25892402],
+       [ 0.52599901],
+       [-0.16156712],
+       [-1.54377199],
+       [ 0.94676021]]))
+('intercepts', 1.8395994592375368e-16)
+('coefficients', array([ 0.        ,  0.        , -0.        ,  0.        ,  0.        ,
+        0.73067168, -0.51214051, -0.        ,  0.        , -0.        ,
+       -0.        , -0.        ,  0.        ,  0.        ,  0.        ,
+        0.        ,  0.        , -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9999978476425418)
+('percent_within_20_percent', 1.0)
+
+('coms', 'netflix')
+('target', 'stock price')
+('y_hats', array([ 1.06488309, -0.94845331, -1.61226679, -1.10778939, -0.15152791]))
+('y_tests', array([ 1.06609026, -0.95012226, -1.61473573, -1.10964134, -0.15164181]))
+('test_pred_residuals', array([-0.00120717,  0.00166895,  0.00246894,  0.00185195,  0.00011389]))
+('y_hat_inverse_scales', array([[ 1.64229599],
+       [-0.34944439],
+       [-1.00613749],
+       [-0.50707135],
+       [ 0.4389328 ]]))
+('y_test_inverse_scales', array([[ 1.64349021],
+       [-0.35109544],
+       [-1.00857994],
+       [-0.50890344],
+       [ 0.43882013]]))
+('intercepts', -6.66944845783574e-16)
+('coefficients', array([-0.        ,  0.        , -0.        , -0.        , -0.        ,
+        0.83709863, -0.56096684, -0.        , -0.        ,  0.        ,
+       -0.        ,  0.        , -0.        , -0.        ,  0.        ,
+        0.        ,  0.        , -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9999968517599248)
+('percent_within_20_percent', 1.0)
+
+('coms', 'tesla')
+('target', 'stock price')
+('y_hats', array([ 0.34461989,  0.2431913 ,  0.97701376,  1.54358056, -0.96907485]))
+('y_tests', array([ 0.34532208,  0.24284513,  0.97887706,  1.54599138, -0.96978461]))
+('test_pred_residuals', array([-0.00070219,  0.00034617, -0.00186331, -0.00241081,  0.00070975]))
+('y_hat_inverse_scales', array([[ 0.96072865],
+       [ 0.86207124],
+       [ 1.57584452],
+       [ 2.12693183],
+       [-0.3170739 ]]))
+('y_test_inverse_scales', array([[ 0.96141166],
+       [ 0.86173453],
+       [ 1.57765692],
+       [ 2.12927678],
+       [-0.31776426]]))
+('intercepts', -2.869519233545618e-16)
+('coefficients', array([ 0.        , -0.        , -0.        ,  0.        , -0.        ,
+        0.86951117, -0.52705422, -0.        , -0.        , -0.        ,
+        0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+       -0.        ,  0.        , -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9999970688417252)
+('percent_within_20_percent', 1.0)
+
+('coms', 'philadelphia philms')
+('target', 'stock price')
+('y_hats', array([-0.40273591, -1.37761908,  0.5029465 ,  1.86162322, -1.42843885]))
+('y_tests', array([-0.40355006, -1.37923256,  0.50315295,  1.86428921, -1.43055144]))
+('test_pred_residuals', array([ 0.00081415,  0.00161348, -0.00020645, -0.00266599,  0.00211259]))
+('y_hat_inverse_scales', array([[ 0.2288759 ],
+       [-0.77086559],
+       [ 1.15765211],
+       [ 2.55097342],
+       [-0.8229812 ]]))
+('y_test_inverse_scales', array([[ 0.228041  ],
+       [-0.77252021],
+       [ 1.15786382],
+       [ 2.55370738],
+       [-0.82514765]]))
+('intercepts', -3.827839541412828e-17)
+('coefficients', array([ 0.        , -0.        ,  0.        , -0.        ,  0.        ,
+        0.82472432, -0.57683203,  0.        , -0.        , -0.        ,
+        0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+       -0.        ,  0.        , -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9999980669339201)
+('percent_within_20_percent', 1.0)
+
+dropped multicollinearity fields: True
+best alpha coeff penalty weight, after using our test set like a cross val set: 0.03
+best overall, across all companies, hyper-parameter alpha results for the specified target:
+
+('coms', 'apple')
+('target', 'stock price')
+('y_hats', array([ 0.42217063, -1.22707455,  1.40136881, -1.20622781,  0.72974633]))
+('y_tests', array([ 0.42548965, -1.29452008,  1.48618412, -1.25946357,  0.76131989]))
+('test_pred_residuals', array([-0.00331902,  0.06744552, -0.08481532,  0.05323576, -0.03157356]))
+('y_hat_inverse_scales', array([[ 1.09004397],
+       [-0.21609756],
+       [ 1.86553291],
+       [-0.19958771],
+       [ 1.33363261]]))
+('y_test_inverse_scales', array([[ 1.09267251],
+       [-0.26951194],
+       [ 1.93270352],
+       [-0.24174847],
+       [ 1.35863771]]))
+('intercepts', 3.5518934603277756e-16)
+('coefficients', array([-0.        ,  0.        ,  0.        ,  0.        ,  0.        ,
+        0.93402647, -0.62461092, -0.        ,  0.        ,  0.        ,
+       -0.        ,  0.        ,  0.        , -0.        ,  0.        ,
+        0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', ['films', 'bot articles written'])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bots created', 'bot impressions'])
+('r_squareds', 0.9974979109344877)
+('percent_within_20_percent', 1.0)
+
+('coms', 'microsoft')
+('target', 'stock price')
+('y_hats', array([-0.3061576 , -2.16403338,  0.23817169,  1.7997369 , -0.37741428]))
+('y_tests', array([-0.33765452, -2.28227776,  0.25865565,  1.88772646, -0.37692059]))
+('test_pred_residuals', array([ 0.03149692,  0.11824438, -0.02048396, -0.08798956, -0.00049369]))
+('y_hat_inverse_scales', array([[ 0.62295932],
+       [-0.88683233],
+       [ 1.06530526],
+       [ 2.3343019 ],
+       [ 0.565053  ]]))
+('y_test_inverse_scales', array([[ 0.59736353],
+       [-0.98292292],
+       [ 1.08195143],
+       [ 2.40580609],
+       [ 0.5654542 ]]))
+('intercepts', 8.128089367910785e-18)
+('coefficients', array([-0.        , -0.        ,  0.        , -0.        , -0.        ,
+        0.94281275, -0.56365299,  0.        , -0.        ,  0.        ,
+        0.        , -0.        ,  0.        ,  0.        ,  0.        ,
+       -0.        ,  0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', ['bot articles written'])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bots created', 'bot impressions'])
+('r_squareds', 0.9974151763827325)
+('percent_within_20_percent', 1.0)
+
+('coms', 'amazon')
+('target', 'stock price')
+('y_hats', array([-0.19904529, -0.74299562, -0.64802553,  0.50560684,  0.38665597]))
+('y_tests', array([-0.19946095, -0.77856836, -0.67166379,  0.51295667,  0.40389573]))
+('test_pred_residuals', array([ 0.00041566,  0.03557274,  0.02363827, -0.00734983, -0.01723976]))
+('y_hat_inverse_scales', array([[ 0.26424512],
+       [-0.27138165],
+       [-0.1778648 ],
+       [ 0.95811463],
+       [ 0.84098395]]))
+('y_test_inverse_scales', array([[ 0.26383582],
+       [-0.30641006],
+       [-0.20114135],
+       [ 0.965352  ],
+       [ 0.85795991]]))
+('intercepts', -1.165842560237634e-16)
+('coefficients', array([ 0.        , -0.        , -0.        ,  0.        , -0.        ,
+        0.86083043, -0.56112568, -0.        ,  0.        ,  0.        ,
+       -0.        , -0.        , -0.        , -0.        , -0.        ,
+       -0.        ,  0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', ['employees'])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9984634915056031)
+('percent_within_20_percent', 1.0)
+
+('coms', 'twitter')
+('target', 'stock price')
+('y_hats', array([ 0.99269526, -0.13473482, -0.51432404,  0.28160924,  0.76340073]))
+('y_tests', array([ 1.02553582, -0.13571716, -0.54399238,  0.28144238,  0.80049677]))
+('test_pred_residuals', array([-0.03284057,  0.00098234,  0.02966834,  0.00016686, -0.03709604]))
+('y_hat_inverse_scales', array([[ 1.57741294],
+       [ 0.26191169],
+       [-0.18099834],
+       [ 0.74770779],
+       [ 1.30986887]]))
+('y_test_inverse_scales', array([[ 1.61573177],
+       [ 0.26076548],
+       [-0.21561578],
+       [ 0.7475131 ],
+       [ 1.35315305]]))
+('intercepts', -1.3902233997461474e-16)
+('coefficients', array([-0.        , -0.        , -0.        , -0.        ,  0.        ,
+        0.73502089, -0.48591973, -0.        ,  0.        , -0.        ,
+       -0.        ,  0.        , -0.        ,  0.        ,  0.        ,
+       -0.        ,  0.        , -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9980124661789247)
+('percent_within_20_percent', 1.0)
+
+('coms', 'openai')
+('target', 'stock price')
+('y_hats', array([ 0.56136753,  1.4852333 , -0.25045295, -1.39661406, -0.50296595]))
+('y_tests', array([ 0.58014491,  1.5675574 , -0.30471635, -1.46739325, -0.5163192 ]))
+('test_pred_residuals', array([-0.01877738, -0.0823241 ,  0.05426341,  0.07077918,  0.01335325]))
+('y_hat_inverse_scales', array([[ 1.27332479],
+       [ 2.26617707],
+       [ 0.40088438],
+       [-0.83086241],
+       [ 0.12951583]]))
+('y_test_inverse_scales', array([[ 1.2935043 ],
+       [ 2.35464845],
+       [ 0.34256904],
+       [-0.90692679],
+       [ 0.11516548]]))
+('intercepts', -4.368051298962935e-17)
+('coefficients', array([-0.        , -0.        , -0.        ,  0.        , -0.        ,
+        0.88271009, -0.337105  ,  0.        , -0.        , -0.        ,
+       -0.        ,  0.        ,  0.        , -0.        ,  0.        ,
+       -0.        ,  0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', ['video games'])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9971216787922912)
+('percent_within_20_percent', 1.0)
+
+('coms', 'facebook')
+('target', 'stock price')
+('y_hats', array([-0.22588176, -1.21662779, -0.44990245, -0.77400012,  1.02803131]))
+('y_tests', array([-0.23437777, -1.26402142, -0.4674512 , -0.80526894,  1.06647791]))
+('test_pred_residuals', array([ 0.00849601,  0.04739363,  0.01754875,  0.03126883, -0.0384466 ]))
+('y_hat_inverse_scales', array([[ 0.26687246],
+       [-0.778493  ],
+       [ 0.0305016 ],
+       [-0.31146344],
+       [ 1.58991325]]))
+('y_test_inverse_scales', array([[ 0.25790807],
+       [-0.82849942],
+       [ 0.01198539],
+       [-0.3444561 ],
+       [ 1.63047939]]))
+('intercepts', -1.9932713707403264e-17)
+('coefficients', array([-0.        ,  0.        , -0.        ,  0.        , -0.        ,
+        0.69549247, -0.58368231, -0.        , -0.        , -0.        ,
+       -0.        ,  0.        ,  0.        , -0.        , -0.        ,
+       -0.        , -0.        , -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9983477248411465)
+('percent_within_20_percent', 1.0)
+
+('coms', 'alphabet')
+('target', 'stock price')
+('y_hats', array([0.0335537 , 1.02671508, 0.02141139, 0.64855604, 1.31318395]))
+('y_tests', array([0.02985251, 1.0636902 , 0.01482793, 0.66724858, 1.35995238]))
+('test_pred_residuals', array([ 0.00370119, -0.03697512,  0.00658346, -0.01869254, -0.04676843]))
+('y_hat_inverse_scales', array([[0.53025491],
+       [1.67226512],
+       [0.51629279],
+       [1.23742996],
+       [2.00166815]]))
+('y_test_inverse_scales', array([[0.52599901],
+       [1.71478184],
+       [0.50872265],
+       [1.25892402],
+       [2.05544594]]))
+('intercepts', 1.5376369287099363e-16)
+('coefficients', array([ 0.        ,  0.        ,  0.        , -0.        ,  0.        ,
+        0.65973202, -0.49038883, -0.        ,  0.        ,  0.        ,
+       -0.        , -0.        ,  0.        ,  0.        ,  0.        ,
+        0.        ,  0.        , -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9972886856978731)
+('percent_within_20_percent', 0.8)
+
+('coms', 'netflix')
+('target', 'stock price')
+('y_hats', array([-0.29772078,  1.0181459 , -1.06386779, -1.23378023, -1.26390694]))
+('y_tests', array([-0.30571355,  1.05532659, -1.11643658, -1.28312207, -1.32555035]))
+('test_pred_residuals', array([ 0.00799277, -0.03718069,  0.05256879,  0.04934183,  0.06164341]))
+('y_hat_inverse_scales', array([[ 0.3025104 ],
+       [ 1.60664113],
+       [-0.4568035 ],
+       [-0.62520053],
+       [-0.65505855]]))
+('y_test_inverse_scales', array([[ 0.29458891],
+       [ 1.64349021],
+       [-0.50890344],
+       [-0.6741023 ],
+       [-0.71615217]]))
+('intercepts', -2.695526026766861e-16)
+('coefficients', array([ 0.        ,  0.        ,  0.        , -0.        , -0.        ,
+        0.77808341, -0.55264823, -0.        , -0.        ,  0.        ,
+       -0.        ,  0.        , -0.        , -0.        , -0.        ,
+        0.        ,  0.        , -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', [])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9974441187244002)
+('percent_within_20_percent', 1.0)
+
+('coms', 'tesla')
+('target', 'stock price')
+('y_hats', array([ 0.26050091,  0.63111019,  0.33943353, -0.53888269,  1.75006354]))
+('y_tests', array([ 0.26869465,  0.67662411,  0.36203355, -0.54823799,  1.83285968]))
+('test_pred_residuals', array([-0.00819374, -0.04551392, -0.02260002,  0.0093553 , -0.08279614]))
+('y_hat_inverse_scales', array([[0.86218002],
+       [1.22439029],
+       [0.93932381],
+       [0.0809126 ],
+       [2.31798516]]))
+('y_test_inverse_scales', array([[0.87018807],
+       [1.26887274],
+       [0.96141166],
+       [0.07176931],
+       [2.39890491]]))
+('intercepts', 8.888267394291252e-17)
+('coefficients', array([ 0.        , -0.        , -0.        ,  0.        , -0.        ,
+        0.866075  , -0.53666223,  0.        , -0.        , -0.        ,
+       -0.        ,  0.        ,  0.        ,  0.        , -0.        ,
+        0.        , -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', ['free lunches'])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'executive compensation', 'employees', 'computer usage', 'debt to equity', 'marketing spend', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9967783068051244)
+('percent_within_20_percent', 1.0)
+
+('coms', 'philadelphia philms')
+('target', 'stock price')
+('y_hats', array([ 0.35638993,  0.58460244,  0.59105214, -1.17650172, -0.4595193 ]))
+('y_tests', array([ 0.38199099,  0.60963961,  0.6154508 , -1.21604394, -0.47299155]))
+('test_pred_residuals', array([-0.02560105, -0.02503717, -0.02439866,  0.03954222,  0.01347225]))
+('y_hat_inverse_scales', array([[ 1.01635902],
+       [ 1.27598495],
+       [ 1.28332246],
+       [-0.72753501],
+       [ 0.08813997]]))
+('y_test_inverse_scales', array([[ 1.04548405],
+       [ 1.30446848],
+       [ 1.31107959],
+       [-0.77252021],
+       [ 0.07281326]]))
+('intercepts', -6.695962195911244e-17)
+('coefficients', array([ 0.        , -0.        ,  0.        ,  0.        ,  0.        ,
+        0.77468425, -0.53158531, -0.        , -0.        , -0.        ,
+        0.        ,  0.        ,  0.        , -0.        ,  0.        ,
+       -0.        ]))
+('descriptions', 0                    revenue
+1                   expenses
+2                tweet count
+3                 meme count
+4          investment income
+5                      likes
+6                   retweets
+7                video games
+8                      films
+9               free lunches
+10    executive compensation
+11                 employees
+12            computer usage
+13            debt to equity
+14           marketing spend
+15      bot articles written
+16              bots created
+17           bot impressions
+19               stock price
+Name: field name, dtype: object)
+('dropped_desc', ['computer usage', 'marketing spend'])
+('leftover_descriptions', ['revenue', 'expenses', 'tweet count', 'meme count', 'investment income', 'likes', 'retweets', 'video games', 'films', 'free lunches', 'executive compensation', 'employees', 'debt to equity', 'bot articles written', 'bots created', 'bot impressions'])
+('r_squareds', 0.9986053282223509)
+('percent_within_20_percent', 1.0)
